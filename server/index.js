@@ -11,7 +11,7 @@ app.get("/",(req,res)=>{
 })
 const server = http.createServer(app)
 const io = socketIO(server);
-io.on("cnnection",()=>{
+io.on("connection",()=>{
     console.log("New Connection")
 })
 server.listen(port,()=>{
