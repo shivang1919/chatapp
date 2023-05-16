@@ -6,7 +6,7 @@ import Message from "../Message/Message"
 import ReactScrollToBottom from "react-scroll-to-bottom"
 import closeIcon from "../../images/closeicon.png"
 
-const ENDPOINT = "http://localhost:8000"
+const ENDPOINT = "https://chatappback.vercel.app/"
 let socket;
 const Chat = () => {
     const [id, setId] = useState("")
